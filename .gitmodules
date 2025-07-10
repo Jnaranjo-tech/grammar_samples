@@ -1,0 +1,3 @@
+[submodule "PhysiCell-Studio"]
+	path = PhysiCell-Studio
+	url = https://github.com/PhysiCell-Tools/PhysiCell-Studio.git
