@@ -1,0 +1,25 @@
+epithelial_normal,pressure,decreases,cycle entry,0,0.5,4,0
+epithelial_tumor_class_I_hi,pressure,decreases,cycle entry,0,1.0,4,0
+epithelial_normal,ecm,increases,transform to mesenchymal_normal,0.01,0.01,4,0
+epithelial_tumor_class_I_hi,ecm,increases,transform to mesenchymal_tumor_class_II_hi,0.01,0.01,4,0
+epithelial_normal,damage,increases,apoptosis,0.023,45,16,0
+epithelial_tumor_class_I_hi,damage,increases,apoptosis,0.023,45,16,0
+mesenchymal_normal,damage,increases,apoptosis,0.023,45,16,0
+mesenchymal_tumor_class_II_hi,damage,increases,apoptosis,0.023,45,16,0
+epithelial_normal,dead,increases,debris secretion,0.017,0.1,10,1
+epithelial_tumor_class_I_hi,dead,increases,debris secretion,0.017,0.1,10,1
+mesenchymal_normal,dead,increases,debris secretion,0.017,0.1,10,1
+mesenchymal_tumor_class_II_hi,dead,increases,debris secretion,0.017,0.1,10,1
+mesenchymal_tumor_class_II_hi,ecm,decreases,migration speed,0.249678089,0.059591632,1.224134673,0
+mesenchymal_tumor_class_II_hi,ecm,increases,migration speed,3.78565306,3.119412867,9.998145256,0
+mesenchymal_tumor_class_II_hi,pro-inflammatory factor,decreases,transform to epithelial_tumor_class_I_hi,0.0,0.2,4,0
+mesenchymal_normal,pro-inflammatory factor,decreases,transform to epithelial_normal,0,0.2,4,0
+fibroblast,ecm,decreases,migration speed,6.90516270388402e-06,2.078329369,1.155103841,0
+fibroblast,ecm,increases,migration speed,3.470551875,9.999679617,1.153017946,0
+CD8_Tcell,contact with epithelial_tumor_class_I_hi,decreases,migration speed,0,0.1,2,0
+CD8_Tcell,anti-inflammatory factor,decreases,migration speed,0,2.5,2,0
+CD8_Tcell,anti-inflammatory factor,decreases,attack epithelial_tumor_class_I_hi,0,2.5,2,0
+CD8_Tcell,pro-inflammatory factor,increases,attack epithelial_tumor_class_I_hi,0.1,0.1,2,0
+CD4_Tcell,anti-inflammatory factor,decreases,migration speed,0,2.5,2,0
+CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,decreases,migration speed,0,0.01,2,0
+CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,increases,pro-inflammatory factor secretion,0.1,0.1,2,0
