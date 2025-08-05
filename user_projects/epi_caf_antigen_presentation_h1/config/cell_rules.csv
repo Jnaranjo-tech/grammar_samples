@@ -23,3 +23,7 @@ CD8_Tcell,pro-inflammatory factor,increases,attack epithelial_tumor_class_I_hi,0
 CD4_Tcell,anti-inflammatory factor,decreases,migration speed,0,2.5,2,0
 CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,decreases,migration speed,0,0.01,2,0
 CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,increases,pro-inflammatory factor secretion,0.1,0.1,2,0
+CD8_Tcell,contact with epithelial_tumor_class_I_hi,increases,cycle entry,1e-3,0.1,4,0
+CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,increases,cycle entry,1e-3,0.1,4,0
+CD4_Tcell,contact with mesenchymal_tumor_class_II_hi,decreases,apoptosis,0,0.1,4,0
+CD8_Tcell,contact with epithelial_tumor_class_I_hi,decreases,apoptosis,0,0.1,4,0

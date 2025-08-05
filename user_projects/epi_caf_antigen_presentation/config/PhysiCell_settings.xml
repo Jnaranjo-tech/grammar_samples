@@ -1,15 +1,15 @@
 <PhysiCell_settings version="devel-version">
 
     <domain>
-        <x_min>-800</x_min>
-        <x_max>800</x_max>
-        <y_min>-800</y_min>
-        <y_max>800</y_max>
-        <z_min>-10</z_min>
-        <z_max>10</z_max>
-        <dx>20</dx>
-        <dy>20</dy>
-        <dz>20</dz>
+        <x_min>-800.0</x_min>
+        <x_max>800.0</x_max>
+        <y_min>-800.0</y_min>
+        <y_max>800.0</y_max>
+        <z_min>-10.0</z_min>
+        <z_max>10.0</z_max>
+        <dx>20.0</dx>
+        <dy>20.0</dy>
+        <dz>20.0</dz>
         <use_2D>true</use_2D>
     </domain>
 

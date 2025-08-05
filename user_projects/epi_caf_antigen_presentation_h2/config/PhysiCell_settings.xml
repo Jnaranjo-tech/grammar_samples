@@ -1,15 +1,15 @@
 <PhysiCell_settings version="devel-version">
 
     <domain>
-        <x_min>-800</x_min>
-        <x_max>800</x_max>
-        <y_min>-800</y_min>
-        <y_max>800</y_max>
-        <z_min>-10</z_min>
-        <z_max>10</z_max>
-        <dx>20</dx>
-        <dy>20</dy>
-        <dz>20</dz>
+        <x_min>-800.0</x_min>
+        <x_max>800.0</x_max>
+        <y_min>-800.0</y_min>
+        <y_max>800.0</y_max>
+        <z_min>-10.0</z_min>
+        <z_max>10.0</z_max>
+        <dx>20.0</dx>
+        <dy>20.0</dy>
+        <dz>20.0</dz>
         <use_2D>true</use_2D>
     </domain>
 
@@ -278,6 +278,7 @@
                         <attack_rate name="epithelial_tumor_class_II_hi" units="1/min">0.0</attack_rate>
                         <attack_rate name="mesenchymal_normal" units="1/min">0.0</attack_rate>
                         <attack_rate name="mesenchymal_tumor_class_I_hi" units="1/min">0.0</attack_rate>
+                        <attack_rate name="mesenchymal_tumor_class_II_hi" units="1/min">0</attack_rate>
                     </attack_rates>
                     <attack_damage_rate units="1/min">1</attack_damage_rate>
                     <attack_duration units="min">0.1</attack_duration>
@@ -1214,7 +1215,7 @@
                 </cycle>
                 <death>
                     <model code="100" name="apoptosis">
-                        <death_rate units="1/min">0</death_rate>
+                        <death_rate units="1/min">0.0001</death_rate>
                         <phase_durations units="min">
                             <duration index="0" fixed_duration="true">516</duration>
                         </phase_durations>
@@ -1272,7 +1273,7 @@
                 <motility>
                     <speed units="micron/min">1</speed>
                     <persistence_time units="min">5</persistence_time>
-                    <migration_bias units="dimensionless">0.5</migration_bias>
+                    <migration_bias units="dimensionless">0.25</migration_bias>
                     <options>
                         <enabled>true</enabled>
                         <use_2D>true</use_2D>
@@ -1374,7 +1375,7 @@
                 </cycle>
                 <death>
                     <model code="100" name="apoptosis">
-                        <death_rate units="1/min">0</death_rate>
+                        <death_rate units="1/min">0.0001</death_rate>
                         <phase_durations units="min">
                             <duration index="0" fixed_duration="true">516</duration>
                         </phase_durations>
@@ -1520,7 +1521,7 @@
     <cell_rules>
         <rulesets>
             <ruleset protocol="CBHG" version="3.0" format="csv" enabled="true">
-                <folder>/Users/jeanette.johnson/grammar_samples/user_projects/epi_caf_antigen_presentation_h2/config</folder>
+                <folder>/Users/jeanette.johnson/josh_physicell_fork/grammar_samples/user_projects/epi_caf_antigen_presentation_h2/config</folder>
                 <filename>cell_rules.csv</filename>
             </ruleset>
         </rulesets>
