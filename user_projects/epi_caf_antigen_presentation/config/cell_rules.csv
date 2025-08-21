@@ -18,9 +18,14 @@ epithelial_tumor,damage,increases,apoptosis,1.0,0.5,4,0
 mesenchymal_tumor,damage,increases,apoptosis,1.0,0.5,4,0
 CD8,Co-Stimulant,increases,attack epithelial_tumor,3.33e-2,0.5,4,0
 CD8,Co-Stimulant,increases,attack mesenchymal_tumor,3.33e-2,0.5,4,0
-CD4,contact with epithelial_tumor,increases,IL-2 secretion,0.1,0.5,4,0
-CD4,contact with mesenchymal_tumor,increases,IL-2 secretion,0.1,0.5,4,0
-CD8,contact with epithelial_tumor,increases,IL-2 secretion,0.1,0.5,4,0
-CD8,contact with mesenchymal_tumor,increases,IL-2 secretion,0.1,0.5,4,0
+CD4,contact with epithelial_tumor,increases,IL-2 secretion,1,0.5,4,0
+CD4,contact with mesenchymal_tumor,increases,IL-2 secretion,1,0.5,4,0
+CD8,contact with epithelial_tumor,increases,IL-2 secretion,1,0.5,4,0
+CD8,contact with mesenchymal_tumor,increases,IL-2 secretion,1,0.5,4,0
 CD4,IL-2,decreases,apoptosis,0,0.5,4,0
 CD8,IL-2,decreases,apoptosis,0,0.5,4,0
+T-reg,IL-2,increases,cycle entry,0.0001,0.5,4,0
+CD4,contact with epithelial_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
+CD8,contact with epithelial_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
+CD8,contact with mesenchymal_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
+CD4,contact with mesenchymal_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
