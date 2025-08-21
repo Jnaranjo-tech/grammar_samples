@@ -89,7 +89,7 @@
         </variable>
         <variable name="IL-2" units="dimensionless" ID="2">
             <physical_parameter_set>
-                <diffusion_coefficient units="micron^2/min">1.0</diffusion_coefficient>
+                <diffusion_coefficient units="micron^2/min">100</diffusion_coefficient>
                 <decay_rate units="1/min">0.05</decay_rate>
             </physical_parameter_set>
             <initial_condition units="dimensionless">0.0</initial_condition>
@@ -121,7 +121,7 @@
         </variable>
         <variable name="TGF-B" units="dimensionless" ID="4">
             <physical_parameter_set>
-                <diffusion_coefficient units="micron^2/min">1.0</diffusion_coefficient>
+                <diffusion_coefficient units="micron^2/min">100</diffusion_coefficient>
                 <decay_rate units="1/min">0.5</decay_rate>
             </physical_parameter_set>
             <initial_condition units="dimensionless">0.0</initial_condition>
@@ -2352,7 +2352,7 @@
             <phenotype>
                 <cycle code="5" name="live">
                     <phase_transition_rates units="1/min">
-                        <rate start_index="0" end_index="0" fixed_duration="false">0.00072</rate>
+                        <rate start_index="0" end_index="0" fixed_duration="false">0</rate>
                     </phase_transition_rates>
                     <standard_asymmetric_division enabled="False">
                         <asymmetric_division_probability name="epithelial_normal" units="dimensionless">0</asymmetric_division_probability>
@@ -2387,7 +2387,7 @@
                     <model code="101" name="necrosis">
                         <death_rate units="1/min">0.0</death_rate>
                         <phase_transition_rates units="1/min">
-                            <rate start_index="0" end_index="1" fixed_duration="false">9e9</rate>
+                            <rate start_index="0" end_index="1" fixed_duration="false">9000000000.0</rate>
                             <rate start_index="1" end_index="2" fixed_duration="true">1.15741e-05</rate>
                         </phase_transition_rates>
                         <parameters>
@@ -2610,7 +2610,7 @@
                     <model code="101" name="necrosis">
                         <death_rate units="1/min">0.0</death_rate>
                         <phase_transition_rates units="1/min">
-                            <rate start_index="0" end_index="1" fixed_duration="false">9e9</rate>
+                            <rate start_index="0" end_index="1" fixed_duration="false">9000000000.0</rate>
                             <rate start_index="1" end_index="2" fixed_duration="true">1.15741e-05</rate>
                         </phase_transition_rates>
                         <parameters>
@@ -2799,7 +2799,7 @@
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
             <folder>./config/ics/coculture</folder>
-            <filename>X1134.csv</filename>
+            <filename>X1134_df.csv</filename>
         </cell_positions>
     </initial_conditions>
 
