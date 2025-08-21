@@ -90,7 +90,7 @@
         <variable name="IL-2" units="dimensionless" ID="2">
             <physical_parameter_set>
                 <diffusion_coefficient units="micron^2/min">100</diffusion_coefficient>
-                <decay_rate units="1/min">0.05</decay_rate>
+                <decay_rate units="1/min">0</decay_rate>
             </physical_parameter_set>
             <initial_condition units="dimensionless">0.0</initial_condition>
             <Dirichlet_boundary_condition units="dimensionless" enabled="False">0.0</Dirichlet_boundary_condition>
@@ -106,7 +106,7 @@
         <variable name="Co-Stimulant" units="dimensionless" ID="3">
             <physical_parameter_set>
                 <diffusion_coefficient units="micron^2/min">1.0</diffusion_coefficient>
-                <decay_rate units="1/min">0.5</decay_rate>
+                <decay_rate units="1/min">0.01</decay_rate>
             </physical_parameter_set>
             <initial_condition units="dimensionless">0.0</initial_condition>
             <Dirichlet_boundary_condition units="dimensionless" enabled="False">0.0</Dirichlet_boundary_condition>
@@ -122,7 +122,7 @@
         <variable name="TGF-B" units="dimensionless" ID="4">
             <physical_parameter_set>
                 <diffusion_coefficient units="micron^2/min">100</diffusion_coefficient>
-                <decay_rate units="1/min">0.5</decay_rate>
+                <decay_rate units="1/min">0.01</decay_rate>
             </physical_parameter_set>
             <initial_condition units="dimensionless">0.0</initial_condition>
             <Dirichlet_boundary_condition units="dimensionless" enabled="False">0.0</Dirichlet_boundary_condition>
@@ -1573,7 +1573,7 @@
                 </motility>
                 <secretion>
                     <substrate name="inflammatory_signal">
-                        <secretion_rate units="1/min">0.0</secretion_rate>
+                        <secretion_rate units="1/min">0.01</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
                         <uptake_rate units="1/min">0.01</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
@@ -1587,7 +1587,7 @@
                     <substrate name="IL-2">
                         <secretion_rate units="1/min">0.0</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
-                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <uptake_rate units="1/min">0.01</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="Co-Stimulant">
@@ -1796,7 +1796,7 @@
                 </motility>
                 <secretion>
                     <substrate name="inflammatory_signal">
-                        <secretion_rate units="1/min">0.0</secretion_rate>
+                        <secretion_rate units="1/min">0.01</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
                         <uptake_rate units="1/min">0.01</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
@@ -1810,7 +1810,7 @@
                     <substrate name="IL-2">
                         <secretion_rate units="1/min">0.0</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
-                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <uptake_rate units="1/min">0.01</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="Co-Stimulant">
@@ -2033,7 +2033,7 @@
                     <substrate name="IL-2">
                         <secretion_rate units="1/min">0.0</secretion_rate>
                         <secretion_target units="substrate density">1.0</secretion_target>
-                        <uptake_rate units="1/min">5.0</uptake_rate>
+                        <uptake_rate units="1/min">0.05</uptake_rate>
                         <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="Co-Stimulant">
