@@ -1,5 +1,5 @@
-epithelial_tumor,ecm,increases,transform to mesenchymal_tumor,0.01,0.01,4,0
-epithelial_normal,damage,increases,apoptosis,0.023,45,16,0
+Monocytes,TGF-B,increases,transform to M2_macrophage,0.005,4,1,0
+Monocytes,inflammatory_signal,increases,transform to M1_macrophage,0.005,4,1,0
 epithelial_tumor,damage,increases,apoptosis,0.023,45,16,0
 mesenchymal_normal,damage,increases,apoptosis,0.023,45,16,0
 mesenchymal_tumor,damage,increases,apoptosis,0.023,45,16,0
