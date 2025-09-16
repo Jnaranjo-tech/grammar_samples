@@ -29,3 +29,5 @@ CD4,contact with epithelial_tumor,increases,inflammatory_signal secretion,1,0.1,
 CD8,contact with epithelial_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
 CD8,contact with mesenchymal_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
 CD4,contact with mesenchymal_tumor,increases,inflammatory_signal secretion,1,0.1,4,0
+macrophage,oxygen,decreases,TGF-B secretion,0,5,4,0
+macrophage,oxygen,increases,inflammatory_signal secretion,0.1,5,4,0
