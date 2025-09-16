@@ -561,9 +561,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -787,9 +793,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -1013,9 +1025,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -1239,9 +1257,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -1465,9 +1489,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -1692,9 +1722,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -1923,9 +1959,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -2154,9 +2196,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -2385,9 +2433,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -2616,9 +2670,15 @@
                     </substrate>
                     <substrate name="oxygen">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="debris">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                 </secretion>
                 <cell_interactions>
@@ -2812,12 +2872,21 @@
                     </substrate>
                     <substrate name="ecm">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="IL-2">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="Co-Stimulant">
                         <secretion_rate units="1/min" />
+                        <secretion_target units="substrate density">0.0</secretion_target>
+                        <uptake_rate units="1/min">0.0</uptake_rate>
+                        <net_export_rate units="total substrate/min">0.0</net_export_rate>
                     </substrate>
                     <substrate name="TGF-B">
                         <secretion_rate units="1/min">0.1</secretion_rate>
@@ -2875,7 +2944,7 @@
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
             <folder>./config/ics/coculture</folder>
-            <filename>X1134_df.csv</filename>
+            <filename>xenium_subset.csv</filename>
         </cell_positions>
     </initial_conditions>
 
