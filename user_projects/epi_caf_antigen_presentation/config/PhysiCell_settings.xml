@@ -2944,14 +2944,14 @@
     <initial_conditions>
         <cell_positions type="csv" enabled="true">
             <folder>./config/ics/coculture</folder>
-            <filename>xenium_subset.csv</filename>
+            <filename>X1134_df.csv</filename>
         </cell_positions>
     </initial_conditions>
 
     <cell_rules>
         <rulesets>
             <ruleset protocol="CBHG" version="3.0" format="csv" enabled="true">
-                <folder>/Users/jeanette.johnson/josh_physicell_fork/grammar_samples/user_projects/epi_caf_antigen_presentation/config</folder>
+                <folder>/Users/joshuanaranjo/grammar_samples/user_projects/epi_caf_antigen_presentation/config</folder>
                 <filename>cell_rules.csv</filename>
             </ruleset>
         </rulesets>

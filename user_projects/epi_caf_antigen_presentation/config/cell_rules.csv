@@ -1,5 +1,9 @@
 epithelial_normal,pressure,decreases,cycle entry,0,0.5,4,0
 epithelial_tumor,pressure,decreases,cycle entry,0,1.0,4,0
+epithelial_normal,ecm,increases,transform to mesenchymal_normal,0.01,10,4,0
+epithelial_tumor,ecm,increases,transform to mesenchymal_tumor,0.01,10,4,0
+epithelial_normal,damage,increases,apoptosis,0.023,45,16,0
+mesenchymal_normal,damage,increases,apoptosis,0.023,45,16,0
 mesenchymal_normal,ecm,decreases,migration speed,0.249678089,0.059591632,1.224134673,0
 mesenchymal_normal,ecm,increases,migration speed,3.78565306,3.119412867,9.998145256,0
 mesenchymal_tumor,ecm,decreases,migration speed,0.249678089,0.059591632,1.224134673,0
@@ -14,8 +18,10 @@ CD4,TGF-B,increases,transform to T-reg, 0.1, 0.1, 4,0
 CD8,TGF-B,increases,transform to EX_Tcell, 0.1, 0.1, 4,0
 CD8,IL-2,increases,cycle entry,0.0001,0.5,4,0
 CD4,IL-2,increases,cycle entry,0.0001,0.5,4,0
-epithelial_tumor,damage,increases,apoptosis,1.0,0.5,4,0
-mesenchymal_tumor,damage,increases,apoptosis,1.0,0.5,4,0
+CD8,IL-2,increases,attack epithelial_tumor,0.0333,0.5,4,0
+CD8,IL-2,increases,attack mesenchymal_tumor,0.0333,0.5,4,0
+epithelial_tumor,damage,increases,apoptosis,0.023,45,16,0
+mesenchymal_tumor,damage,increases,apoptosis,0.023,45,16,0
 CD8,Co-Stimulant,increases,attack epithelial_tumor,3.33e-2,0.5,4,0
 CD8,Co-Stimulant,increases,attack mesenchymal_tumor,3.33e-2,0.5,4,0
 CD4,contact with epithelial_tumor,increases,IL-2 secretion,1,0.5,4,0
