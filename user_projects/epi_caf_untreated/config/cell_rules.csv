@@ -64,3 +64,16 @@ mesenchymal_tumor_class1_class2,ecm,increases,migration speed,3.78565306,3.11941
 mesenchymal_tumor_class1_class2,inflammatory_signal,decreases,transform to epithelial_tumor_class1_class2,0.0,0.2,4,0
 T-reg,IL-2,decreases,apoptosis,0,0.5,4,0
 EX_Tcell,IL-2,decreases,apoptosis,0,0.5,4,0
+macrophage,oxygen,decreases,TGF-B secretion,0,5,4,0
+macrophage,oxygen,increases,inflammatory_signal secretion,0.1,5,4,0
+CD8,contact with epithelial_tumor_class1,decreases,migration speed,0,0.1,2,0
+CD8,contact with epithelial_tumor_class1_class2,decreases,migration speed,0,0.1,2,0
+CD8,contact with mesenchymal_tumor_class1,decreases,migration speed,0,0.1,2,0
+CD8,contact with mesenchymal_tumor_class1_class2,decreases,migration speed,0,0.1,2,0
+CD4,contact with epithelial_tumor_class1_class2,decreases,migration speed,0,0.1,2,0
+CD4,contact with epithelial_tumor_class2,decreases,migration speed,0,0.1,2,0
+CD4,contact with mesenchymal_tumor_class1_class2,decreases,migration speed,0,0.1,2,0
+CD4,contact with mesenchymal_tumor_class2,decreases,migration speed,0,0.1,2,0
+CD4,ecm,decreases,migration speed,0,5,4,0
+CD8,ecm,decreases,migration speed,0,5,4,0
+macrophage,ecm,decreases,migration speed,0,5,4,0
